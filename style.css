@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #1e608b;
+    --secondary-color: #b0b4b1;
+    --text-color: #333333;
+    --background-color: #f0f0f0;
+    --font-family: 'Merriweather', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: #333333;
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    background-color: #d1d1d1; /* Color de fondo de los apartados */
+    border: 2px solid #444; /* Borde delgado */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno */
+    margin: 2%; /* Espacio entre apartados */
+    display:flex; /* Para que no ocupen toda la línea */
+}
+
+b {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 12px;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #d1d1d1; /* Color de fondo de los apartados */
+    border: 2px solid #444; /* Borde delgado */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espacio interno */
+    margin: 10px 0; /* Espacio entre apartados */
+    display: block; /* Para que no ocupen toda la línea */
+}
+
+div {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.info {
+    display:grid;
+    align-items: normal;
+    justify-items: center;
+    border: 2px #1e608b;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 20%;
+    background-size: cover; /* Asegura que la imagen cubra todo el div */
+    background-position: center;
+}
